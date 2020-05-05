@@ -1,0 +1,375 @@
+body{
+	background-color: #000027;
+	color: white;
+	font-family: 'Baloo Bhaina 2', cursive;
+	margin: 0px;
+	overflow: hidden;
+	padding: 0px;
+}
+/**********************************************************************CSS OF NAV BAR**************************************************************/
+.ninja-img{
+	
+	border-radius: 50px;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+.nav-bar{
+	margin-top: 30px;
+}
+.fav p{
+	font-size: 20px;
+	
+}
+.search-container{
+	margin-top: 30px;
+	margin-left: 650px;
+	background-color:#00004d;
+	border:none;
+	padding: 0px 10px;
+	border-radius: 8px;
+	
+}
+.search{
+	background-color:#00004d;
+	border:none;
+	color: white;
+}
+.notify i{
+margin-top: 30px;
+margin-left: 30px;	
+}
+.dot {
+	position: relative;
+  height: 6px;
+  width: 6px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+.space{
+	margin-top: 40px;
+}
+.profile{
+	margin-left: 50px;
+	border-radius: 50px;
+}
+
+
+/*****************************************CSS OF MAJOR RELEASES AND BACKGROUND CAROUSEL***************************************/
+.releases{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 300px;
+	height: 300px;
+	margin-left: 200px;
+	margin-top: 50px;
+	padding: 10px;
+}
+.zoom1{
+	transform: scale(1.5); 
+}
+.zoom {
+  padding: 10px;
+  transition: transform .2s;
+  }
+.zoom:hover {
+  transform: scale(1.5); 
+}
+
+/*******************************************CSS OF LATEST RELEASE*************************************************************/
+.Latest{
+	margin-left: 200px;
+}
+.dropbtn{
+	margin-left: 30px;
+	margin-bottom: 70px;
+}
+.same{
+	display: flex;
+	color: black;
+}
+
+/****************************************CSS OF POPULAR ARTISTS***************************************************************/
+
+.Popular img{
+	border-radius: 50%;
+	 box-sizing: border-box;
+	 margin-top: 20px;
+}
+.response{
+	margin-left: 200px;
+}
+
+/********************************************CSS OF PLAYLIST GENERIC************************************************************/
+.track {
+	margin-top:10px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:#00004d;
+  width: 82%;
+}
+.track img{
+	border-radius: 50%;
+	margin: 15px;
+}
+/**********************************************CSS OF MOOD SPECIFIC TRACKS***************************************************/
+.mood{
+	display: flex;
+	flex-wrap: nowrap;
+	width: 300px;
+	height: 300px;
+	margin-left: 200px;
+	margin-top: 20px;
+	
+}
+
+/********************************************************LATEST ENGLISH CSS**********************************************/
+.English img{
+	margin-top: 10px;
+}
+.English .l1{
+margin-left: 20px;
+}
+
+/*********************************************************CSS OF FOOTER SECTION********************************************/
+.music
+{
+	background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+	background-size: cover;
+	width: 100%;
+	height: 120px;
+}
+.tr{
+border:1px solid black;
+}
+.tr1{
+	margin-left: 150px;
+}
+.move{
+	margin-left: 500px;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 350px;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+  }
+  .volume{
+  	 -webkit-appearance: none;
+  width: 150px;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+  }
+  .volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+  }
+  #bottomfoo{
+		position: fixed;
+   		left: 0;
+   		bottom: 0;
+   		width: 100%;
+	}
+.volbar{
+	font-size:24px; 
+	margin-left: 300px;
+}
+.pausebtn{
+	margin-left: 30px;
+}
+
+  /**************************************************CSS OF ASIDE SECTION**************************************************/
+
+.asid{
+	margin-top:-840px;
+	font-size: 22px;
+}
+#List{
+	margin-top: 50px;
+}
+.text-1{
+	margin-left: 15px;
+}
+.drop {
+  position: relative;
+  display: inline-block;
+}
+.play{
+	margin-bottom: 60px;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  font-size: 10px;
+  background-color: #f9f9f9;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.drop-content a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.drop:hover .drop-content {
+  display: block;
+}
+
+
+/*********************************************************CSS OF JUSTIN.HTML STARTS*********************************/
+.flexcontainer{
+	display: flex;
+}
+.aside{
+	display: flex;
+	margin-top: 30px;
+
+}
+
+/*********************************************************MAIN TILE CSS******************************************/
+
+.tile{
+	margin-left: 200px;
+	margin-top:30px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: #7f53ac;
+  background-size: cover;
+background-image: linear-gradient(315deg, #7f53ac 0%, #647dee 74%);
+  max-width: 55%;
+}
+.justin-text{
+	display: inline-block;
+	margin-top: 32px;
+	font-size: 10px;
+	color: black;
+	margin-left: 15px;
+}
+.reaction{
+	font-size: 20px;
+	margin-left: 220px;
+}
+.image{
+	opacity: 0.8;
+	background-image:linear-gradient(to bottom, rgba(9,9,9,0.52), rgba(220,220,220,0.73)),
+	url('Images/j3.jpg');
+	background-size: cover;
+	width: 300px;
+	height: 300px;
+}
+.playbtn{
+	height:45px;
+	width: 120px;
+	padding-left:25px;
+	padding-top: 12px;
+	margin-left: 30px;
+	margin-top: 25px;
+	display: inline-block;
+	background-size: cover;
+	background-image: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+	cursor: pointer;
+}
+
+/************************************************************CSS OF EACH TRACK****************************************************/
+.each-track{
+	margin-left: 200px;
+	margin-top:10px;
+	width:55%;
+	background-color: #a4508b;
+	background-size: cover;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
+}
+#List1{
+	margin-top: 15px;
+}
+
+/***************************************************CSS FOR RESPONSIVE DESIGN(handled every device)*******************************************/
+@media screen and (min-width: 768px) and (max-width: 1200px) 
+{
+	.releases{
+		margin-left: 80px;
+	}
+	.Latest{
+		margin-left: 80px;
+	}
+	.response{
+		margin-left: 80px;
+	}
+	.mood{
+		margin-left: 80px;
+	}
+	.track{
+		width: 100%;
+	}
+	.search-container{
+		margin-left: 160px;
+
+	}
+	.samebtn{
+		display: inline-block;
+	}
+	.move{
+		margin-left: 340px;
+	}
+	.volbar{
+		margin-left: 0px;
+	}
+	.tr1{
+		margin-left: 100px;
+	}
+	body{
+		overflow: hidden;
+	}
+	.reply{
+		display: none;
+	}
+	.image{
+		height: 400px;
+		width: 400px;
+		
+	}
+	.justin-text{
+		margin-left: 30px;
+	}
+	.reaction{
+		margin-left: 30px;
+	}
+}

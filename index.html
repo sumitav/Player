@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music Player</title>
+	<link rel="stylesheet" href="style1.css">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<!---------------------------------------------------Body of Site starts here----------------------------------------------------------------------------->
+<body>
+	<!-------------------------------------------------- Navigation bar starts here------------------------------------------------------------------->
+	<nav>
+		<table><!-----Defined a table layout for nav bar with one row and multiple columns------------------------------------------------------------->
+			<tr>
+				<td>
+					<img  class="ninja-img" src="Images/ninja.jpg" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="nav-bar">
+					<div>Ninja</div>
+					<div><b>Studio</b></div>
+				</div>
+				</td>
+				<td>
+					<div class="nav-bar">
+					<span style="margin-left:50px">Favourites</span>
+				</div>
+				</td>
+				<td>
+					<div class="search-container">
+						<a class="search-btn" href="#"><i class="fa fa-search"></i></a>
+      					<input type="text" class="search" placeholder="Search" name="search">
+      					<a class="search-btn" href="#"><i class="fa fa-microphone"></i></a>
+      				</div>
+ 				</td>
+ 				<td class="nav-bar notify">
+ 					<i class="fa fa-bell"></i><span class="dot"></span>
+ 				</td>
+ 				<td>
+ 					<img  class="nav-bar profile" src="Images/profile.jpg" width="70px" height="70px"><!-----------PROFILE----------->
+ 				</td>
+			</tr>
+		</table>
+	</nav>
+	<!----------------------------------------------------Navigation Bar ends-------------------------------------------------------------------------------->
+	<main>
+		<!---------------------------------------------------Main Content starts here------------------------------------------------------------------->
+		<table><!---------------------------------------------table of main section----------------------------------------------------------------------->
+		<tr>
+		<td>
+		<!---------------------------------------------Div element for Major Releases Tile--------------------------------------------------------------->
+
+		<div class="releases">
+			<div class="alb-1 zoom">
+				<img src="Images/alb1.jpg" width="300px" height="200px">
+			</div>
+			<div class="alb-2 zoom">
+				<img src="Images/alb2.jpg"width="270px" height="200px">
+			</div>
+			<div class="alb-3 zoom">
+				<img src="Images/alb3.jpg"width="250px" height="200px">
+			</div>
+		</div>
+
+		<!---------------------------------------------------Div of Major Releases ends here------------------------------------------------------------>
+
+		<!--------------------------------------------------Div of Latest Releases--------------------------------------------------------------------->							
+		<div class="Latest">
+				<b>Latest Release</b>
+				<table><!------------------Table with two rows and two cols----------------------------------------------------------->
+					<tr>
+						<td>
+							<img src="Images/onism.jpg" width="100px" height="100px">
+						</td>
+						<td>
+							<span style="font-size:12px;margin-left: 5px;"> <b>Onism</b></span><br><span style="font-size:12px;margin-left: 5px;">Aug 11,2019</span>
+						</td>
+						<td>
+							<div class="drop">
+							<div class="dropbtn"><i style="transform:rotate(90deg);margin-left: 20px;"class="fa fa-ellipsis-v"></i><br><span style="font-size:10px;margin-left: 10px;">6.29</span></div>
+
+  							<div class="drop-content">
+    						<div class="same"><i class="fa fa-play-circle-o" style="font-size:24px"></i><a href="#">Play Now</a>
+    						</div>
+    						<div class="same"><i class="fa fa-plus"></i><a href="#">Add to Queue</a></div>
+    						<div class="same"><i class="fa fa-bookmark-o" style="font-size:24px"></i><a href="#">Add to Favourites</a></div>
+    						<div class="same"><i class="fa fa-info-circle" style="font-size:24px"></i><a href="#">Get Info</a></div>
+  							</div>
+  							</div>
+
+						</td>
+						<td>
+							<span style="margin-left:200px;"><img src="Images/l1.jpg" width="100px" height="100px"></span>
+						</td>
+						<td>
+							<span style="font-size:12px;margin-left: 5px;"> <b>Bokante</b></span><br><span style="font-size:12px;margin-left: 5px;">Jan 21,2020</span>
+						</td>
+						<td><!---------------DropDown menu coloumn------------------------->
+							<div class="drop">
+							<div class="dropbtn"><i style="transform:rotate(90deg);margin-left: 20px;"class="fa fa-ellipsis-v"></i><br><span style="font-size:10px;margin-left: 10px;">4.32</span></div>
+  							<div class="drop-content">
+    						<div class="same"><i class="fa fa-play-circle-o" style="font-size:24px"></i><a href="#">Play Now</a>
+    						</div>
+    						<div class="same"><i class="fa fa-plus"></i><a href="#">Add to Queue</a></div>
+    						<div class="same"><i class="fa fa-bookmark-o" style="font-size:24px"></i><a href="#">Add to Favourites</a></div>
+    						<div class="same"><i class="fa fa-info-circle" style="font-size:24px"></i><a href="#">Get Info</a></div>
+  							</div>
+  							</div>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<img src="Images/l2.jpg" width="100px" height="100px">
+						</td>
+						<td>
+							<span style="font-size:12px;margin-left: 5px;"><b>Dylan Brady</b></span><br><span style="font-size:12px;margin-left: 5px;">Feb 11,2020</span>
+						</td>
+						<td>
+							<div class="drop">
+							<div class="dropbtn">
+								<i style="transform:rotate(90deg);margin-left: 20px;"class="fa fa-ellipsis-v"></i><br><span style="font-size:10px;margin-left: 10px;">3.24</span>
+							</div>
+  							<div class="drop-content">
+    						<div class="same"><i class="fa fa-play-circle-o" style="font-size:24px"></i><a href="#">Play Now</a>
+    						</div>
+    						<div class="same"><i class="fa fa-plus"></i><a href="#">Add to Queue</a></div>
+    						<div class="same"><i class="fa fa-bookmark-o" style="font-size:24px"></i><a href="#">Add to Favourites</a></div>
+    						<div class="same"><i class="fa fa-info-circle" style="font-size:24px"></i><a href="#">Get Info</a></div>
+  							</div>
+  							</div>
+						</td>
+						<td>
+							<span style="margin-left:200px;"><img src="Images/l3.jpg" width="100px" height="100px"></span>
+						</td>
+						<td>
+							<span style="font-size:12px;margin-left: 5px;"> <b>Shawn Mendes</b></span><br><span style="font-size:12px;margin-left: 5px;">Dec 25,2019</span>
+						</td>
+						<td>
+							<div class="drop">
+							<div class="dropbtn"><i style="transform:rotate(90deg);margin-left: 20px;"class="fa fa-ellipsis-v"></i><br><span style="font-size:10px;margin-left: 10px;">4.44</span></div>
+  							<div class="drop-content">
+    						<div class="same"><i class="fa fa-play-circle-o" style="font-size:24px"></i><a href="#">Play Now</a>
+    						</div>
+    						<div class="same"><i class="fa fa-plus"></i><a href="#">Add to Queue</a></div>
+    						<div class="same"><i class="fa fa-bookmark-o" style="font-size:24px"></i><a href="#">Add to Favourites</a></div>
+    						<div class="same"><i class="fa fa-info-circle" style="font-size:24px"></i><a href="#">Get Info</a></div>
+  							</div>
+  							</div>
+						</td>
+					</tr>
+				</table>
+
+		</div><!--latest releases div end-->
+
+		<!---------------Popular Artists Div---------------------------------------------------------------------------------------------------------->
+		
+		<div class="response"><b>Popular Artists</b></div>
+		<div class="Latest Popular">
+			<a href="#"><img  src="Images/p1.png" width="150px" height="150px"></a>
+			<a href="#"><img  src="Images/p2.jpg" width="150px" height="150px"></a>
+			<a href="justin.html"><img  src="Images/p3.jpg" width="150px" height="150px"></a>
+			<a href="#"><img  src="Images/p4.jpg" width="150px" height="150px"></a>
+			<a href="#"><img  src="Images/p5.jpg" width="150px" height="150px"></a>
+			<a href="#"><img  src="Images/p6.jpg" width="150px" height="150px"></a>
+		</div>
+
+		<!--------------------------Popular Artists Div ends---------------------------------------------------------------------------------------------->
+
+
+		<!-------------------------Playlist generic  Div starts------------------------------------------------------------------------------------------->
+		<div class=" Latest track">
+			<div><img src="Images/t1.png" width="100px" height="100px"></div>
+  			<div><img src="Images/t2.jpg" width="100px" height="100px"></div>
+  			<div><img src="Images/t3.jpg" width="100px" height="100px"></div>  
+  			<div><img src="Images/t4.jpg" width="100px" height="100px"></div>
+  			<div><img src="Images/t5.png" width="100px" height="100px"></div>
+  			<div><img src="Images/t6.jpg" width="100px" height="100px"></div>  
+  			<div><img src="Images/t7.png" width="100px" height="100px"></div>
+		</div>
+
+		<!-------------------------Playlist generic  Div ends------------------------------------------------------------------------------------------>
+
+		<!-----------------------------------Mood Specific Div starts---------------------------------------------------------------------------------->
+		<div class="mood">
+			<div class="alb-1 zoom">
+				<img src="Images/m1.jpg" width="300px" height="200px">
+			</div>
+			<div class="alb-2 zoom">
+				<img src="Images/m2.jpg"width="250px" height="200px">
+			</div>
+			<div class="alb-3 zoom">
+				<img src="Images/m3.jpg"width="300px" height="200px">
+			</div>
+
+		</div><!-----------------------------------------moood track div ends------------------------------------------------------------------------------>
+
+	<!----------------------------------------Latest English  Div starts-------------------------------------------------------------------------------->
+		
+		<div class="response"><b>Latest English</b></div>
+
+		<!--Latest English div-->
+
+		<div class="Latest English">
+			<table><!-----------Table with three rows of image,Artist and date----------------------------------------------------->
+				<tr>
+					<td><img  src="Images/s2.jpg" width="150px" height="150px"></td>	
+					<td><img  class="l1" src="Images/s3.jpg" width="150px" height="150px"></td>	
+					<td><img  class="l1" src="Images/s4.jpg" width="170px" height="150px"></td>	
+					<td><img  class="l1" src="Images/s5.jpg" width="170px" height="150px"></td>	
+					<td><img  class="l1" src="Images/s6.jpg" width="170px" height="150px"></td>	
+				</tr>
+				<tr>
+					<td>
+						<div >Zayn</div>
+					</td>
+					<td>
+						<div style="margin-left: 20px;">Justin</div>
+					</td>
+					<td>
+						<div style="margin-left: 20px;">Drake</div>
+					</td>
+					<td>
+						<div style="margin-left: 20px;">Sheeran</div>
+					</td>
+					<td>
+						<div style="margin-left: 20px;">Taylor</div>
+					</td>
+			</tr>
+
+			<!--2nd row english-->
+
+			<tr>
+				<td>
+					<div>Aug 11,2019</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">June 19,2019</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Jan 11,2020</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Mar 10,2020</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Feb 11,2020</div>
+				</td>
+			</tr>
+	</table>
+	</div>
+	<!----------------------------------------------------------------div ends of latest english--------------------------------------------------------->
+
+	<!-------------------------------------------------------------Latest Hindi div starts--------------------------------------------------------------->
+		<div class="space">
+		<div class="response"><b>Latest Hindi</b></div>
+		</div>
+		<div class="Latest English">
+			<table>
+			<tr>
+				<td><img  src="Images/h1.jpg" width="150px" height="150px"></td>	
+				<td><img  class="l1" src="Images/h2.jpg" width="150px" height="150px"></td>	
+				<td><img  class="l1" src="Images/h3.jpg" width="170px" height="150px"></td>	
+				<td><img  class="l1" src="Images/h4.jpg" width="170px" height="150px"></td>	
+				<td><img  class="l1" src="Images/h5.jpg" width="170px" height="150px"></td>	
+			</tr>
+			<tr>
+				<td>
+					<div>Arijit</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Bolly</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Jubin</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Dino</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Dhvani</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<div>June 12,2019</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Jan 02,2020</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Feb 15,2019</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Dec 27,2020</div>
+				</td>
+				<td>
+					<div style="margin-left: 20px;">Mar 18,2020</div>
+				</td>
+			</tr>
+	</table>
+	</div><!--------------------------------------------------------Div latest hindi ends-------------------------------------------------------------------->
+
+	</td><!----------------------------------------------------------1st coln main section ends------------------------------------------------------------>
+
+	<td class="reply"><!------------------------------------------------2ndCol aside section here----------------------------------------------------->
+
+		<!--------------------Table of Aside HEADER Section-------------------------------------->
+		<table class="asid">
+			<tr>
+				<td>
+					<div><b>Queue</b></div>
+				</td>
+				<td>
+					<div class="drop">
+					<div style="font-size: 12px;color:#00cdcd;margin-left: 140px;">Queue<i style="margin-left:20px;"class="fa fa-angle-down"></i></div>
+					<div class="drop-content">
+  					<a href="#">Playlists</a>
+  					<a href="#">Favourite Songs</a>
+  					</div>
+  				</div>
+				</td>
+			</tr>
+		</table><!-------------------Table header ends----------------------------------->
+
+		<!----------------------------Table lists starts for queue with 10 elements----------------------------------------------------------------------->
+		<table id="List">
+			<!--------1st row---------->
+			<tr>
+				<td>01</td>
+				<td><img style="margin-left:10px; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;" src="Images/q1.jpg" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="text-1">
+						<div><b>Mirage</b></div>
+						<div>Else</div>
+					</div>
+				</td>
+				<td>
+					<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-left:50px;"></i>
+				</td>
+			</tr>
+			<tr>
+				<!--------2nd row---------->
+				<td>02</td>
+				<td><img style="margin-left:10px; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;" src="Images/q2.jpg" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="text-1">
+						<div><b>Yummy</b></div>
+						<div>Justin Bieber</div>
+					</div>
+				</td>
+				<td>
+					<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-left:50px;"></i>
+				</td>
+			</tr>
+			<tr>
+				<!--------3rd row---------->
+				<td><i class="fa fa-music"></i></td>
+				<td><img style="margin-left:10px; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;" src="Images/q3.jpg" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="text-1">
+						<div><b>Dusk'Dawn</b></div>
+						<div>Zayn</div>
+					</div>
+				</td>
+				<td>
+					<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-left:50px;"></i>
+				</td>
+			</tr>
+			<tr>
+				<!--------4th row---------->
+				<td>04</td>
+				<td><img style="margin-left:10px; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;" src="Images/q4.jpg" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="text-1">
+						<div><b>Sorry</b></div>
+						<div>Justin</div>
+					</div>
+				</td>
+				<td>
+					<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-left:50px;"></i>
+				</td>
+			</tr>
+			<tr>
+				<!--------5th row---------->
+				<td>05</td>
+				<td><img style="margin-left:10px; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;" src="Images/q5.jpg" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="text-1">
+						<div><b>Passion</b></div>
+						<div>Drake</div>
+					</div>
+				</td>
+				<td>
+					<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-left:50px;"></i>
+				</td>
+			</tr>
+			<tr>
+				<!--------6th row---------->
+				<td>06</td>
+				<td><img style="margin-left:10px; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;" src="Images/q6.png" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="text-1">
+						<div><b>Shake</b></div>
+						<div>Taylor</div>
+					</div>
+				</td>
+				<td>
+					<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-left:50px;"></i>
+				</td>
+			</tr>
+			<tr>
+				<!--------7th row---------->
+				<td>07</td>
+				<td><img style="margin-left:10px; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;" src="Images/q1.jpg" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="text-1">
+						<div><b>Mirage</b></div>
+						<div>Else</div>
+					</div>
+				</td>
+				<td>
+					<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-left:50px;"></i>
+				</td>
+			</tr>
+			<tr>
+				<!--------8th row---------->
+				<td>08</td>
+				<td><img style="margin-left:10px; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;" src="Images/q8.jpg" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="text-1">
+						<div><b>Weight</b></div>
+						<div>TBand</div>
+					</div>
+				</td>
+				<td>
+					<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-left:50px;"></i>
+				</td>
+			</tr>
+			<tr>
+				<!--------9th row---------->
+				<td>09</td>
+				<td><img style="margin-left:10px; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;" src="Images/q9.jpg" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="text-1">
+						<div><b>Prayer</b></div>
+						<div>Maddona</div>
+					</div>
+				</td>
+				<td>
+					<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-left:50px;"></i>
+				</td>
+			</tr>
+			<tr>
+				<!--------10th row---------->
+				<td>10</td>
+				<td><img style="margin-left:10px; border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 white;" src="Images/q10.jpg" width="70px" height="70px">
+				</td>
+				<td>
+					<div class="text-1">
+						<div><b>Love</b></div>
+						<div>Rihanna</div>
+					</div>
+				</td>
+				<td>
+					<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-left:50px;"></i>
+				</td>
+			</tr>
+
+	</table><!----------------List TABLE ENDS HERE---------------------------------------------------------------------------------------------------->
+
+	</td><!-----------------2ND COLN OF MAIN SECTION DEFINING Aside section ends here------------------------------------------------------------------>
+</tr><!-------------------main section 1 row with 2 cols------------------------------------------------------------------------>
+
+
+</table><!----------TABLE ENDS-------------------------------------------------------------------------------------------------------->
+</main>
+</body>
+<!------------------------------------------Footer for music player------------------------------------------------------------------------------------>
+
+		<footer id="bottomfoo">
+		<div class="music">
+			<table class="Latest">
+				<tr>
+					<td><img style="border:1px solid black;margin-top: 10px;" src="Images/s2.jpg" width="100px" height="65px"></td>
+					<td><marquee style="width: 130px;">Dusk Till Dawn by Zayn Malik</marquee><br>
+						<span style="color: black;font-size: 15px;">Zayn Malik</span>
+					</td>
+					<td>
+						<i class="fa fa-heart" style="font-size:14px;color:yellow;margin-bottom: 10px;"></i>
+					</td>
+					<td>
+						<div class="tr1">
+						<i class="fa fa-fast-backward" style="font-size:14px"></i>
+					</div>
+					</td>
+					<td>
+						<span class="pausebtn">
+						<i class="fa fa-step-backward" style="font-size:14px"></i>
+					</span>
+					</td>
+					<td>
+						<span class="pausebtn">
+						<i class="fa fa-pause-circle-o" style="font-size:56px ;color:green;"></i>
+					</span>
+					</td>
+					<td>
+						<span class="pausebtn">
+						<i class="fa fa-step-forward" style="font-size:14px"></i>
+					</span>
+					</td>
+					<td>
+						<span class="pausebtn">
+						<i class="fa fa-fast-forward" style="font-size:14px"></i>
+					</span>
+					</td>
+				</tr>
+			</table>
+				<table class="move">
+				<tr>
+					<td>
+						<div>
+							<span style="color: red;">1.39</span>
+							</div>
+					</td>
+					<td>
+						<input type="range" min="1" max="100" value="30" class="slider">
+					</td>
+					<td><div><span style="color: green;">4.59</span></div></td>
+					<td><i class="fa fa-volume-up volbar"></i></td>
+					<td>
+						<input type="range" min="1" max="100" value="30" class="volume">
+					</td>
+					<td><i class="material-icons" style="font-size:24px">fullscreen</i></td>
+				</tr>
+			</table>
+		</div>
+	</footer>
+	<!-------------------------------------FOOTER ENDS---------------------------------------------------------------------------------------->
+
+</html>
